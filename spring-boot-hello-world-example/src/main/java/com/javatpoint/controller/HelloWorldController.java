@@ -7,6 +7,7 @@ public class HelloWorldController
 @RequestMapping("/")
 public String hello() 
 {
+	System.out.println("test data pushing to git");
 return "Hello javaTpoint";
 }
 }
